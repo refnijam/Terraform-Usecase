@@ -1,0 +1,7 @@
+1.existing vpc is out of ip addresses i need to add secondary cidr using terraform - can be done
+
+ 2.create a new subnet to new secondary cidr - can be done
+
+ 3.creating route table and routes to transit gateway which is already present can be done
+
+ 4.TGW-ATTACHMENT which is already present and having attached with existing subnets in it im trying to associate with the new subnet which is created previous subnets 1a,1b AZs newly created one in 3a so i need to associate 3a association to existing tgw-attachment using terraform
